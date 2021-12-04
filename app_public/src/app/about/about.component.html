@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1><b>About Our estaurant</b></h1>
+  <h5><em> This is a multicuisine restaurant founded in the year 2021. Here, in our restaurant you will find special and unique dishes from all around the world,specializing in American,Indian,Nepalese and Vietnamese food. 
+    The food is presented to you with care and love by our chef team recruited from all around the world. 
+    Please enjoy your meal and if you enjoy our food and ambience, please rate us! </em></h5>
+</div>
+
+<html>
+<head>
+<style>
+h1 {text-align: center;}
+</style>
+</head>
+</html>
+
+<p style="line-height:3.5em;"></p>
+<h1 style="background-color:rgb(233, 207, 229);"><b>Our Team</b></h1>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Anh Nguyen</h2>
+        <p class="title">CEO</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Sravya Akula</h2>
+        <p class="title">Marketing Manager</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Shubhashree Bhattacharya</h2>
+        <p class="title">Resturant Manager</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+    <div class="container">
+      <h2>Ranjit Das</h2>
+      <p class="title">Master Chef</p>
+      <p><button class="button">Contact</button></p>
+    </div>
+  </div>
+</div>
+
+  <!-- <section class="joinnow">
+    <div class="col-12">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary col-lg-12">Log In</button>
+          </form>
+
+    </div>
+</section> -->
